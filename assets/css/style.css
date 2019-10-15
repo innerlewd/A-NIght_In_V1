@@ -25,7 +25,7 @@ img{
    text-align: bottom;
 }
 
-#movie{
+.movie{
     height: 500px;
     width: 500px;
 }
