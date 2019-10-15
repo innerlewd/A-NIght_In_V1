@@ -24,6 +24,11 @@ img{
     width: 300px;
    text-align: bottom;
 }
+
+#movie{
+    height: 500px;
+    width: 500px;
+}
     
 .font{
     color: whitesmoke;
