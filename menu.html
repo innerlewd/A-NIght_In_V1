@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Night In</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/intuitive" type="text/css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="body">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4 mx-auto logo" style="width: 300px;">A Night In</h1>
+            <p class="lead font">So tell us what's in house to make a Meal. First select what you have from the standard list. Now add what else you have in 
+              the kitchen. Once you added eveything submit for results. I know we can come up with a great dish.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-3">
+          <div id="commonFoodOptions">
+            </div>
+      </div>
+      <div class="col-5"></div>
+      <div class="col-4">
+          <form id="topic-form">
+              <input id="addedIngredients" type="text">
+              <input id="foodSearch" class="btn btn-secondary btn-lg btn-blockbutton font" type="submit" value="Add Ingredient" for="addedIngredients">
+              ​ </form>
+      </div>
+
+      <br> <br />
+     
+    </div>
+
+      <div class="row">
+
+          <div class="col-4">
+              <div id = "food">
+                  <p id="missedIngredient"></p> 
+                 <img id="foodPic" src="" alt="" > 
+                 <h2 id="foodTitle" class="font"></h2>
+                </div>
+              </div>
+          
+          ​
+          <div class="col-4">
+              <div id = "food1">
+                 
+                  <p id="missedIngredient1"></p>
+                  
+                  <img id="foodPic2" src="" alt="" >
+                  <h2 id="foodTitle2" class="font"></h2>
+              </div>   
+          </div>   
+          ​
+          <div class="col-4">
+            <div>
+                <div id = "food2">
+                    
+                    <p id="missedIngredient2"></p>
+                    
+                    <img id="foodPic3" src="" alt="" >
+                    <h2 id="foodTitle3" class="font"></h2>
+                </div>
+          </div>
+
+        </div>
+    
+  </div>
+  
+    <br>
+    
+
+    ​
+    ​
+  
+  ​<div>
+    <button id='reset' class="button font"> Reset</button>
+    <button id='submit' class="button font"> Submit</button>
+
+    <a href="./movieSelect.html"><button class="button font"> Continue</button></a>
+  </div>
+</div>
+  <nav class="navbar fixed-bottom footer">
+    <a class="navbar-brand" href="index.html"><h6>Login</h6></a>
+    <a class="navbar-brand" href="movieSelect.html"><h6>Movie</h6></a>
+    <a class="navbar-brand" href="index.html"><h6>Home</h6></a>
+  </nav>
+  <script src="assets/javascript/menuApi.js"> </script>
+  <script src="assets/javascript/MovieAPI.js"></script>
+</body>
+
+</html>
+​
